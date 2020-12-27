@@ -1,3 +1,9 @@
+# nbp_api
+Spring app that allows you to make an account, select info about available beers,
+save your favorite beers and send an email with it. Powers by https://punkapi.com/
+
+# Run
+
 * Download or clone repository and run it in IntelliJ IDEA
 * Go to  ```meal/src/main/resources/application.properties```
 and in ```spring.datasource.url``` connect with your MySql database,
