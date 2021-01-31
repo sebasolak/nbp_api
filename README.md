@@ -17,7 +17,7 @@ gmail email and password if you want api be able to send emails
 ```
 http://localhost:{your_default_port}/registration
 ```
-   and send a body in post request like example below:
+   and send a body in POST request like example below:
 ```
 {
     "login": "seba123",
@@ -28,17 +28,17 @@ http://localhost:{your_default_port}/registration
 ```
 ## Api map:
 
-* Select current exchange rate by currency code and save this request (get request):
+* Select current exchange rate by currency code and save this request (GET request):
 ```
 http://localhost:{your_default_port}/{code}
 ```
 * Exchange currecy by typing what currency you want to change (codeFrom),it amount (amount), 
 what currency you want to receive (codeTo). 
-This endpoint will return the result and save it (get request):
+This endpoint will return the result and save it (GET request):
 ```
 http://localhost:{your_default_port}/{codeFrom}/{codeTo}/{amount}
 ```
-* Send an email with performed operations(get request):
+* Send an email with performed operations(GET request):
 ```
 http://localhost:{your_default_port}/send
 ```
